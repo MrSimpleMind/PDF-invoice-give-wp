@@ -1,0 +1,91 @@
+.listItem {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    align-items: center;
+    margin-top: 0.4rem;
+    position: relative;
+    width: 100%;
+    border-bottom: solid 0.06rem var(--givewp-grey-100);
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+
+    @media (max-width: 56rem) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 29rem) {
+        grid-template-columns: auto;
+    }
+
+    span {
+        font-family: OpenSans, sans-serif;
+        margin: 0.9rem;
+        color: var(--givewp-grey-900);
+        font-size: 0.875rem;
+        line-height: 1.5;
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .preparing, .actions {
+        display: flex;
+        font-weight: 600;
+        margin-left: 0;
+
+        @media (max-width: 29rem) {
+            margin-top: 0;
+            justify-content: right;
+        }
+    }
+
+    .preparing {
+        @keyframes preparing-animation {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(359deg);
+            }
+        }
+
+        img {
+            animation: preparing-animation 1s infinite;
+        }
+
+        label {
+            color: var(--givewp-grey-700);
+            cursor: default;
+        }
+    }
+
+    .actions {
+        .download label {
+            color: #2271b1;
+        }
+
+        .delete label {
+            color: var(--givewp-red-500);
+        }
+
+        .disabledDelete {
+            cursor: default;
+
+            img {
+                cursor: default;
+            }
+
+            label {
+                cursor: default;
+                color: var(--givewp-grey-300);
+            }
+        }
+    }
+}
+
+.grey {
+    background: var(--givewp-grey-5);
+}

@@ -1,0 +1,975 @@
+# Copyright (C) 2025 GiveWP
+# This file is distributed under the same license as the Give - PDF Receipts plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give - PDF Receipts 3.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/give-pdf-receipts\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-01T11:46:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: give-pdf-receipts\n"
+
+#. Plugin Name of the plugin
+#: give-pdf-receipts.php
+msgid "Give - PDF Receipts"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: give-pdf-receipts.php
+msgid "https://givewp.com/addons/pdf-receipts/"
+msgstr ""
+
+#. Description of the plugin
+#: give-pdf-receipts.php
+msgid "Creates PDF Receipts for each donation that is downloadable via email and donation history."
+msgstr ""
+
+#. Author of the plugin
+#: give-pdf-receipts.php
+#: includes/class-give-pdf-receipts-engine.php:222
+#: includes/template-functions.php:684
+msgid "GiveWP"
+msgstr ""
+
+#. Author URI of the plugin
+#: give-pdf-receipts.php
+msgid "https://givewp.com"
+msgstr ""
+
+#: give-pdf-receipts.php:179
+#: give-pdf-receipts.php:192
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: give-pdf-receipts.php:354
+#: includes/class-give-pdf-receipts-engine.php:62
+#: includes/class-pdf-receipts-settings.php:29
+#: includes/class-pdf-receipts-settings.php:92
+#: includes/give-pdf-receipts-settings-functions.php:47
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "PDF Receipts"
+msgstr ""
+
+#: give-pdf-receipts.php:478
+msgid "Settings"
+msgstr ""
+
+#: give-pdf-receipts.php:510
+msgid "Documentation"
+msgstr ""
+
+#: give-pdf-receipts.php:520
+msgid "Add-ons"
+msgstr ""
+
+#: give-pdf-receipts.php:552
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%s\" target=\"_blank\">GiveWP</a> plugin installed and activated for Give - PDF Receipts to activate."
+msgstr ""
+
+#: give-pdf-receipts.php:581
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%s\" target=\"_blank\">GiveWP</a> core version %s for the Give - PDF Receipts add-on to activate."
+msgstr ""
+
+#: includes/class-give-pdf-receipts-engine.php:221
+msgid "Donation Receipt %s"
+msgstr ""
+
+#: includes/class-give-pdf-receipts-engine.php:255
+#: includes/class-give-pdf-receipts-engine.php:303
+#: includes/class-give-pdf-receipts-engine.php:356
+#: includes/template-functions.php:454
+#: src/Receipt/UpdateDonationReceipt.php:42
+msgid "Receipt"
+msgstr ""
+
+#: includes/class-give-pdf-receipts-engine.php:501
+#: includes/class-pdf-receipts-settings.php:174
+#: includes/give-pdf-receipts-settings-functions.php:381
+#: includes/give-pdf-receipts-settings-functions.php:382
+msgid "Preview Set PDF Template"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:54
+msgid "PDF Receipts Settings"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:55
+msgid "Bulk Downloads"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:82
+#: includes/give-pdf-receipts-settings-functions.php:31
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:83
+#: includes/give-pdf-receipts-settings-functions.php:32
+#: includes/give-pdf-receipts-settings-functions.php:37
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:93
+#: includes/give-pdf-receipts-settings-functions.php:48
+msgid "This enables the PDF Receipts feature for all your website's donation forms. Note: You can disable the global options and enable and customize options per form as well."
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:93
+#: includes/give-pdf-receipts-settings-functions.php:48
+msgid "This allows you to customize the PDF Receipts settings for just this donation form. You can disable PDF Receipts for just this form as well or simply use the global settings."
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:102
+#: includes/give-pdf-receipts-settings-functions.php:57
+msgid "Generation Method"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:103
+#: includes/give-pdf-receipts-settings-functions.php:58
+msgid "Choose the method you would like to generate PDF receipts. The Custom PDF Builder allows you to customize your own templates using a rich editor that allows for custom text, images and HTML to be easily inserted. The Set PDF Templates option will generate PDFs using preconfigured templates."
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:108
+#: includes/give-pdf-receipts-settings-functions.php:63
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Set PDF Templates"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:109
+#: includes/give-pdf-receipts-settings-functions.php:64
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Custom PDF Builder"
+msgstr ""
+
+#: includes/class-pdf-receipts-settings.php:149
+#: includes/give-pdf-receipts-settings-functions.php:242
+#: includes/give-pdf-receipts-settings-functions.php:424
+#: includes/give-pdf-receipts-settings-functions.php:425
+msgid "Preview PDF"
+msgstr ""
+
+#: includes/email-template-tag.php:22
+msgid "Creates a link to a downloadable PDF receipt"
+msgstr ""
+
+#: includes/email-template-tag.php:42
+#: includes/template-functions.php:719
+msgid "Download Receipt"
+msgstr ""
+
+#: includes/functions.php:154
+msgid "Donation #%s Receipt - %s.pdf"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:35
+msgid "Global Option"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:36
+msgid "Customize"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:69
+#: includes/give-pdf-receipts-settings-functions.php:129
+msgid "Receipt Template"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:70
+msgid "Please select a template for your PDF receipts or create a new custom template using your own HTML and CSS. The selected template is viewable in the PDF builder field below."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:77
+msgid "Template Name"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:78
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Please provide your customized receipt template a unique name."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:85
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "PDF Builder"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:86
+msgid "Available template tags: %s"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:93
+msgid "Page Size"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:94
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Select the page size you would like the PDF receipts to be generated at. Note: You may need to adjust the content width if you generate a page size smaller than the default size."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:98
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Letter (8.5 by 11 inches)"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:99
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "A4 (8.27 by 11.69 inches)"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:100
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "A5 (5.8 by 8.3 inches)"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:101
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "A6 (4.1 by 5.8 inches)"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:107
+#: includes/give-pdf-receipts-settings-functions.php:235
+msgid "Special Characters"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:108
+msgid "Characters not displaying correctly? Check to enable the DejaVu Sans font replacing Open Sans/Helvetica/Times. Enable this option if you have characters which do not display correctly (e.g. Greek characters, Japanese, Mandarin, etc.)"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:119
+msgid "Preview Template"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:120
+#: includes/give-pdf-receipts-settings-functions.php:243
+msgid "Click the button above to preview how the PDF will appear to donors. Be sure to save your changes prior to previewing. Please note that sample data will be added in the place of your template tags."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:130
+msgid "Please select a template for your PDF Receipts. This template will be used for all Give PDF Receipts."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:133
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Default"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:134
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Stacked"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:135
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Lines"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:136
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Minimal"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:137
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Traditional"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:143
+msgid "Color Picker"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:145
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Customize the main color used for headings and some backgrounds within the PDF receipt template."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:151
+msgid "Logo Upload"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:152
+msgid "Upload the logo that you would like to display on the receipt. If the logo is greater than 90px in height, it will not be shown. On the Traditional template, if the logo is greater than 80px in height, it will not be shown. Also note that the logo will be output at 96 dpi."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:158
+#: includes/templates/template-blue-stripe.php:64
+#: includes/templates/template-default.php:63
+#: includes/templates/template-lines.php:63
+#: includes/templates/template-minimal.php:83
+#: includes/templates/template-traditional.php:83
+msgid "Organization Name"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:159
+msgid "Enter the organization name that will be shown on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:167
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Name"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:168
+msgid "Enter the name that will be shown on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:175
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:176
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the first address line that will appear on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:183
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:184
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the second address line that will appear on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:191
+msgid "City, State and Zip Code"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:192
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the city, state/province/county and zip/postal code that will appear on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:199
+msgid "Email Address"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:200
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the email address that will appear on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:207
+msgid "Display Website URL"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:208
+msgid "Check this box if you would like your website url to be displayed on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:214
+msgid "Header Message"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:215
+msgid "Enter the message you would like to be shown on the header of the receipt. Please note that the header will not show up on the Blue Stripe and Traditional template."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:221
+msgid "Footer Message"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:222
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the message you would like to be shown on the footer of the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:228
+#: includes/templates/template-blue-stripe.php:338
+#: includes/templates/template-default.php:335
+#: includes/templates/template-lines.php:344
+#: includes/templates/template-minimal.php:359
+#: includes/templates/template-traditional.php:351
+msgid "Additional Notes"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "Enter any messages you would to be displayed at the end of the receipt. Only plain text is currently supported. Any HTML will not be shown on the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "The following template tags will work for the Header and Footer message as well as the Additional Notes:"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "<code>{page}</code> - Page Number"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "<code>{sitename}</code> - Site Name"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "<code>{today}</code> - Date of Receipt Generation"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "<code>{date}</code> - Receipt Date"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:229
+msgid "<code>{receipt_id}</code> - Receipt ID"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:236
+msgid "Characters not displaying correctly? Check to enable the DejaVu Sans Full font replacing Open Sans/Helvetica/Times. Enable this option if you have characters which do not display correctly (e.g. Greek characters, Japanese, Mandarin, etc.)"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:248
+#: includes/give-pdf-receipts-settings-functions.php:251
+msgid "PDF Receipts Docs"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:279
+msgctxt "An explanation of the {donation_name} template tag"
+msgid "The name of completed donation form."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:280
+msgctxt "An explanation of the {first_name} template tag"
+msgid "The donor's first name."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:281
+msgctxt "An explanation of the {full_name} template tag"
+msgid "The donor's full name, first and last."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:282
+msgctxt "An explanation of the {company_name} template tag"
+msgid "The donor's company name."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:283
+msgctxt "An explanation of the {username} template tag"
+msgid "The donor's user name on the site, if they registered an account."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:284
+msgctxt "An explanation of the {user_email} template tag"
+msgid "The donor's email address."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:285
+msgctxt "An explanation of the {billing_address} template tag"
+msgid "The donor's billing address."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:286
+msgctxt "An explanation of the {date} template tag"
+msgid "The date of the donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:287
+msgctxt "An explanation of the {today} template tag"
+msgid "The date of the receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:288
+msgctxt "An explanation of the {amount} template tag"
+msgid "The total price of the donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:289
+msgctxt "An explanation of the {written amount} template tag"
+msgid "The written total price of the donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:290
+msgctxt "An explanation of the {written_amount_without_decimals} template tag"
+msgid "The written total price of the donation without decimals."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:291
+msgctxt "An explanation of the {written_amount_dictated} template tag"
+msgid "The written total price of the donation dictated."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:292
+msgctxt "An explanation of the {written_amount_dictated_without_decimals} template tag"
+msgid "The written total price of the donation dictated without decimals."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:293
+msgctxt "An explanation of the {payment_id} template tag"
+msgid "The unique ID number for this donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:294
+msgctxt "An explanation of the {receipt_id} template tag"
+msgid "The unique ID number for this donation receipt."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:295
+msgctxt "An explanation of the {payment_method} template tag"
+msgid "The method of payment used for this donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:296
+msgctxt "An explanation of the {sitename} template tag"
+msgid "Your site's name as set in WordPress."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:297
+msgctxt "An explanation of the {receipt_link} template tag"
+msgid "Adds a link so users can view their receipt directly on your website if they are unable to view it in the browser correctly."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:298
+msgctxt "An explanation of the {transaction_id} template tag"
+msgid "The transaction ID returned from the payment gateway. If none is found then it will return Give's internal donation payment ID."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:299
+msgctxt "An explanation of the {transaction_key} template tag"
+msgid "The donation transaction key."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:300
+msgctxt "An explanation of the {payment_status} template tag"
+msgid "Status of the donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:301
+msgctxt "An explanation of the {currency_code} template tag"
+msgid "Currency code of donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:302
+msgctxt "An explanation of the {donor_comment} template tag"
+msgid "The Donor Comment that was submitted with the donation."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:307
+msgid "The recurring donation renewal links."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:308
+msgid "The subscription completion date."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:309
+msgid "The subscription frequency."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:310
+msgid "The recurring donation subscription completed."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:311
+msgid "The recurring donation cancellation date."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:316
+msgid "This tag can be used to output a donation form's custom field data created through Form Field Manager."
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:534
+msgid "Donation Receipt 1"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:553
+msgid "Rename"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:556
+msgid "Delete"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:630
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "My Templates"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:639
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Starter Templates"
+msgstr ""
+
+#: includes/give-pdf-receipts-settings-functions.php:641
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Blank Template"
+msgstr ""
+
+#: includes/scripts.php:42
+#: includes/templates/template-blue-stripe.php:61
+#: includes/templates/template-lines.php:60
+#: includes/templates/template-minimal.php:80
+#: includes/templates/template-traditional.php:80
+msgid "Donation Receipt"
+msgstr ""
+
+#: includes/scripts.php:43
+msgid "You haven't saved the template yet. Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/scripts.php:44
+msgid "Are you sure you want to delete this receipt template?"
+msgstr ""
+
+#: includes/scripts.php:45
+msgid "Please provide a unique receipt template name for this PDF receipt in order to apply your changes."
+msgstr ""
+
+#: includes/template-functions.php:331
+msgid "No Username Found"
+msgstr ""
+
+#: includes/template-functions.php:359
+#: includes/template-functions.php:836
+msgid "Example Donation Form Title"
+msgstr ""
+
+#: includes/template-functions.php:449
+msgid "PDF Preview"
+msgstr ""
+
+#: includes/template-functions.php:451
+msgid "Receipt "
+msgstr ""
+
+#: includes/template-functions.php:454
+msgid "Receipt-Preview"
+msgstr ""
+
+#: includes/template-functions.php:600
+msgid "Test Donation"
+msgstr ""
+
+#: includes/template-functions.php:601
+#: includes/template-functions.php:669
+msgid "Complete"
+msgstr ""
+
+#: includes/template-functions.php:667
+msgid "Donor's Company Name."
+msgstr ""
+
+#: includes/template-functions.php:683
+#: includes/template-functions.php:699
+msgid "Example Donation Receipt"
+msgstr ""
+
+#: includes/template-functions.php:846
+msgid "Custom Amount"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:83
+#: includes/templates/template-default.php:159
+#: includes/templates/template-lines.php:82
+#: includes/templates/template-minimal.php:102
+#: includes/templates/template-traditional.php:171
+msgid "Donation Date"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:89
+#: includes/templates/template-default.php:164
+#: includes/templates/template-lines.php:88
+#: includes/templates/template-minimal.php:108
+#: includes/templates/template-traditional.php:182
+msgid "Payment Method"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:94
+#: includes/templates/template-default.php:169
+#: includes/templates/template-lines.php:94
+#: includes/templates/template-minimal.php:114
+#: includes/templates/template-traditional.php:194
+msgid "Payment ID"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:99
+#: includes/templates/template-default.php:174
+#: includes/templates/template-lines.php:100
+#: includes/templates/template-minimal.php:120
+#: includes/templates/template-traditional.php:206
+msgid "Donation Status"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:201
+#: includes/templates/template-blue-stripe.php:237
+#: includes/templates/template-default.php:278
+#: includes/templates/template-default.php:316
+#: includes/templates/template-lines.php:209
+#: includes/templates/template-lines.php:245
+#: includes/templates/template-minimal.php:222
+#: includes/templates/template-minimal.php:258
+#: includes/templates/template-traditional.php:296
+#: includes/templates/template-traditional.php:332
+msgid "Donation Name"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:205
+#: includes/templates/template-default.php:283
+#: includes/templates/template-lines.php:213
+#: includes/templates/template-minimal.php:226
+#: includes/templates/template-traditional.php:300
+msgid "Donation"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:209
+#: includes/templates/template-default.php:287
+#: includes/templates/template-lines.php:217
+#: includes/templates/template-minimal.php:230
+#: includes/templates/template-traditional.php:304
+msgid "Fee"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:213
+#: includes/templates/template-default.php:291
+#: includes/templates/template-lines.php:221
+#: includes/templates/template-minimal.php:234
+#: includes/templates/template-traditional.php:308
+msgid "Total"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:243
+#: includes/templates/template-default.php:320
+#: includes/templates/template-lines.php:249
+#: includes/templates/template-minimal.php:264
+#: includes/templates/template-traditional.php:336
+msgid "Donation Amount"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:259
+#: includes/templates/template-default.php:199
+#: includes/templates/template-lines.php:265
+#: includes/templates/template-minimal.php:280
+#: includes/templates/template-traditional.php:250
+msgid "Donor"
+msgstr ""
+
+#: includes/templates/template-blue-stripe.php:303
+#: includes/templates/template-default.php:243
+#: includes/templates/template-lines.php:309
+#: includes/templates/template-minimal.php:324
+msgid "Organization"
+msgstr ""
+
+#: includes/templates/template-default.php:60
+msgid "DONATION RECEIPT"
+msgstr ""
+
+#: src/FormExtension/FormBuilder/Actions/UpdatePdfSettingsMeta.php:46
+msgid "My Template"
+msgstr ""
+
+#: src/FormExtension/FormBuilder/ViewModels/PdfReceiptsViewModel.php:77
+msgid "Page Number"
+msgstr ""
+
+#: src/FormExtension/FormBuilder/ViewModels/PdfReceiptsViewModel.php:78
+msgid "Site Name"
+msgstr ""
+
+#: src/FormExtension/FormBuilder/ViewModels/PdfReceiptsViewModel.php:79
+msgid "Date of Receipt Generation"
+msgstr ""
+
+#: src/FormExtension/FormBuilder/ViewModels/PdfReceiptsViewModel.php:80
+msgid "Receipt Date"
+msgstr ""
+
+#: src/FormExtension/FormBuilder/ViewModels/PdfReceiptsViewModel.php:81
+msgid "Receipt ID"
+msgstr ""
+
+#: src/PdfExport/API/BaseEndpoint.php:28
+msgid "You don't have permission to access the PDF Export tool. Contact a site administrator and have them change your access level."
+msgstr ""
+
+#: src/PdfExport/API/CreateExport.php:48
+msgid "The start date of the export. Expected Format: YYYY-MM-DD"
+msgstr ""
+
+#: src/PdfExport/API/CreateExport.php:55
+msgid "The end date of the export. Expected Format: YYYY-MM-DD"
+msgstr ""
+
+#: src/PdfExport/API/CreateExport.php:62
+msgid "The donation IDs to export. If set, the start date and the end date will be ignored."
+msgstr ""
+
+#: src/PdfExport/API/CreateExport.php:85
+msgid "The export request needs either donation IDs or start/end dates to create a ZIP of receipts. Your request did not have one or the other."
+msgstr ""
+
+#: src/PdfExport/API/DeleteExport.php:46
+msgid "The ID of the export ZIP to delete."
+msgstr ""
+
+#: src/PdfExport/API/ListExports.php:61
+msgid "Unique identifier for the exported ZIP."
+msgstr ""
+
+#: src/PdfExport/API/ListExports.php:65
+msgid "Indicates if the export is preparing or is ready for download."
+msgstr ""
+
+#: src/PdfExport/API/ListExports.php:70
+msgid "The export creation date."
+msgstr ""
+
+#: src/PdfExport/API/ListExports.php:75
+msgid "The export zip file name."
+msgstr ""
+
+#: src/PdfExport/API/ListExports.php:80
+msgid "The export download URL."
+msgstr ""
+
+#: src/PdfExport/App.php:42
+msgid "Download Receipts"
+msgstr ""
+
+#: src/PdfExport/App.php:90
+msgid "Your web server does not have the ZipArchive PHP class enabled. This class is required to generate ZIPs of PDF Receipts. Contact your web host to enable the ZipArchive class."
+msgstr ""
+
+#: src/PdfExport/GiveToolsPdfExportPage.php:20
+msgid "PDF Export"
+msgstr ""
+
+#: src/PdfExport/Repositories/PdfExport.php:155
+msgid "bulk-actions"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Logo URL"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Max height of logo should be 90px"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Add or upload file"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Use this media"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Template details"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Set the content structure for the PDF Receipt"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Receipt template"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Please select a template for your PDF Receipts for this donation form."
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Header message"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the message you would like to be shown on the header of the receipt."
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Footer message"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Additional notes"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter any messages you would to be displayed at the end of the receipt. Only plain text is currently supported. Any HTML will not be shown on the receipt"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Individual/Organization Details"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter individual or organization details that will show on the receipt"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enter the organization or individual name that will be shown on the receipt."
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "City, State and Zip code"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Display website URL"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Enable the option to display your website url on the receipt"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Email address"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Color picker"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Loading..."
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Template name"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Page size"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Copied!"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Copy Tag"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Generation method"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "The Set PDF Templates option will generate PDFs using preconfigured templates. The Custom PDF Builder allows you to customize your own templates using a rich editor that allows for custom text, images and HTML to be easily inserted."
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "PDF Builder options"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Template tags"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "The following template tags will work for the Header message, Footer message and Additional Notes"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Preview PDF Template"
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Uses <a>global settings</a> when disabled."
+msgstr ""
+
+#: build/pdfReceiptsFormBuilderExtensionScript.js:1
+msgid "Customize PDF Receipts"
+msgstr ""

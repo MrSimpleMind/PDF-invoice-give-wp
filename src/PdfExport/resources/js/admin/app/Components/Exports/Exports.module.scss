@@ -1,0 +1,10 @@
+.container {
+    border-radius: var(--givewp-rounded-4);
+    border: solid 0.06rem var(--givewp-grey-100);
+    background: white;
+    transition: 0.1s;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}

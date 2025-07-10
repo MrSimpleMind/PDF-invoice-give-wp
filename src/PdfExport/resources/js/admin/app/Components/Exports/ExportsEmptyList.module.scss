@@ -1,0 +1,27 @@
+.emptyList {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: auto;
+    position: relative;
+    width: 100%;
+    border-bottom: solid 0.06rem var(--givewp-grey-100);
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    li {
+        font-family: OpenSans, sans-serif;
+        margin: 1rem;
+        color: #404040;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        text-align: left;
+        display: flex;
+        align-content: center;
+    }
+
+    a {
+        color: #2271b1;
+    }
+}

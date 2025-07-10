@@ -1,0 +1,28 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    align-items: center;
+    margin-top: 0.4rem;
+    position: relative;
+    width: 100%;
+    border-bottom: solid 0.06rem var(--givewp-grey-100);
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+
+    @media (max-width: 56rem) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    p {
+        font-family: OpenSans, sans-serif;
+        margin: 1rem;
+        font-size: var(--givewp-font-size-headline-md);
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: left;
+
+        @media (max-width: 29rem) {
+            font-size: 0.8rem;
+        }
+    }
+}
